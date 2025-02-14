@@ -39,7 +39,6 @@ namespace SpecifiedShowEffect.Effects
                 drawDesc with
                 {
                     Opacity = drawDesc.Opacity * opacity,
-                    Zoom = (item.OptimizedHiding && opacity == 0) ? new Vector2(0, 0) : drawDesc.Zoom
                 };
         }
         public void ClearInput()

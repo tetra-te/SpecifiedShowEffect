@@ -34,11 +34,6 @@ namespace SpecifiedShowEffect.Effects
         public double Exporting { get => exporting; set => Set(ref exporting, value); }
         double exporting = 100;
 
-        [Display(Name = "最適化", Description = "不透明度が0%の時に拡大率も0%にして高速化します")]
-        [ToggleSlider]
-        public bool OptimizedHiding { get => optimizedHiding; set => Set(ref optimizedHiding, value); }
-        bool optimizedHiding = true;
-
         public override IEnumerable<string> CreateExoVideoFilters(int keyFrameIndex, ExoOutputDescription exoOutputDescription)
         {
             return [];
