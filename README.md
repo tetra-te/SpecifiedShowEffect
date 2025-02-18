@@ -20,4 +20,4 @@
 3. `SpecifiedShowEffect`という名前のフォルダを削除する。
 
 ## ライセンス
-[MIT License](./LICENSE)
+[CC0 1.0 Universal](./LICENSE)
